@@ -1,16 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- === Link to main.css === -->
-    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./main.css" />
     <!-- === Web Page Title === -->
     <title>Creatives</title>
     <!-- === Favicon === -->
-     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-</head>
-<body>
-    
-</body>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  </head>
+  <body class="font-jakarta">
+    <!------------------------------
+This Is Header Section Start
+------------------------------->
+    <header id="home" class="py-2 px-2 md:py-4 md:mx-14">
+      <nav class="flex flex-wrap mx-auto items-center justify-between p-3 bg-[#FFFFFF]">
+        <div>
+          <a href=""
+            ><img
+              src="./assets/logos/main-logo.png"
+              alt=""
+              class="w-28 md:w-fit"
+          /></a>
+        </div>
+
+        <div
+          class="flex items-center md:order-2 space-x-3.5 md:space-x-6 rtl:space-x-reverse"
+        >
+          <a href="#"
+            ><button type="button" class="btn-one">Register Interest</button></a
+          >
+          <!-- Toggle or Hamburger btn start -->
+          <button
+            data-collapse-toggle="navbar-sticky"
+            type="button"
+            class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-slate-200 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+            aria-controls="navbar-sticky"
+            aria-expanded="false"
+          >
+            <span class="sr-only">Open main menu</span>
+            <svg
+              class="w-5 h-5"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 17 14"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M1 1h15M1 7h15M1 13h15"
+              />
+            </svg>
+          </button>
+          <!-- Toggle or Hamburger btn end -->
+        </div>
+        <div
+          class="md:flex md:w-auto md:order-1 items-center justify-between hidden w-full"
+          id="navbar-sticky"
+        >
+          <ul
+            class="flex flex-col md:flex-row items-center gap-1 md:gap-8 p-4 md:p-0 mt-4 md:mt-0 border border-gray-100 rounded-lg md:space-x-8 rtl:space-x-reverse md:border-0 bg-[#F9FAFB] md:bg-white"
+          >
+            <li><a class="header-list" href="#home">Home</a></li>
+            <li><a class="header-list" href="#about">About Us</a></li>
+            <li><a class="header-list" href="#upskill">Upskill</a></li>
+            <li><a class="header-list" href="#contact">Contact Us</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!------------------------------
+This Is Header Section End
+------------------------------->
+  </body>
 </html>
