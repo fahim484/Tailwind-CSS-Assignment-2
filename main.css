@@ -8,10 +8,13 @@
 
 /* === Custom Component === */
 @layer utilities {
-    .btn-one{
-        @apply bg-[#F44335] text-[#FFFFFF] text-xs  md:text-lg rounded-lg py-2 md:py-2.5 px-3 md:px-4 hover:bg-[#DB3C2F] transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300;
-    }
-    .header-list{
-        @apply text-[#072125] text-base focus:text-[#F44335] hover:text-[#F44335] hover:bg-gray-100 md:hover:bg-transparent block py-2 px-3 md:p-0  text-center w-96 md:w-full;
-    }
+  .btn-one {
+    @apply bg-[#F44335] text-[#FFFFFF] text-xs  md:text-lg rounded-lg py-2 md:py-2.5 px-3 md:px-4 hover:bg-[#DB3C2F] transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300;
+  }
+  .btn-two {
+    @apply bg-[#FAFAFA] text-[#F44335] font-bold text-xs md:text-lg rounded-full py-3 md:py-4 px-7 md:px-8 hover:text-white border border-[#F44335] hover:bg-[#F44335] focus:ring-4 focus:outline-none focus:ring-red-300  text-center;
+  }
+  .header-list {
+    @apply text-[#072125] text-base focus:text-[#F44335] hover:text-[#F44335] hover:bg-gray-100 md:hover:bg-transparent block py-2 px-3 md:p-0  text-center w-96 md:w-full;
+  }
 }

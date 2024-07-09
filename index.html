@@ -11,11 +11,13 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
   </head>
   <body class="font-jakarta">
-    <!------------------------------
-This Is Header Section Start
-------------------------------->
-    <header id="home" class="py-2 px-2 md:py-4 md:mx-14">
-      <nav class="flex flex-wrap mx-auto items-center justify-between p-3 bg-[#FFFFFF]">
+    <!----------------------------------
+        This Is Header Section Start
+    ----------------------------------->
+    <header id="home" class="py-1 md:py-2 md:px-16 bg-white">
+      <nav
+        class="flex flex-wrap mx-auto items-center justify-between p-3 bg-white"
+      >
         <div>
           <a href=""
             ><img
@@ -35,7 +37,7 @@ This Is Header Section Start
           <button
             data-collapse-toggle="navbar-sticky"
             type="button"
-            class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-slate-200 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+            class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-100"
             aria-controls="navbar-sticky"
             aria-expanded="false"
           >
@@ -73,8 +75,62 @@ This Is Header Section Start
         </div>
       </nav>
     </header>
-    <!------------------------------
-This Is Header Section End
-------------------------------->
+    <!---------------------------------
+        This Is Header Section End
+    ---------------------------------->
+
+    <!----------------------------------
+        This Is Hero Section Start
+    ----------------------------------->
+    <section class="relative">
+      <div
+        style="
+          background-image: url('./assets/images/banner-bg.png');
+          z-index: -1;
+        "
+        class="w-full h-screen bg-cover bg-center bg-no-repeat absolute -top-9"
+      >
+        <div>
+          <img
+            src="./assets/images/Wave.svg"
+            alt=""
+            class="absolute -bottom-6"
+          />
+        </div>
+      </div>
+      <div class="text-center py-32 px-4 md:p-16 ">
+        <h5 class="text-[#FFFFFF] font-bold text-lg">
+          Discover <span class="text-[#F44335]">-</span> Interact
+          <span class="text-[#F44335]">-</span> Engage
+        </h5>
+        <h1
+          class="text-[#FAFAFA] font-bold text-3xl md:text-6xl md:leading-[70px] pt-7 pb-5"
+        >
+          Connecting
+          <span
+            class="text-[#F44335] underline underline-offset-4 md:underline-offset-[12px] decoration-2"
+            >talent</span
+          >
+          to <br />
+          opportunity through
+          <span
+            class="text-[#F44335] underline underline-offset-4 md:underline-offset-[12px] decoration-2"
+            >skills</span
+          >
+        </h1>
+        <p class="text-[#FAFAFA] text-xl leading-9 pb-8 md:pb-5 text-justify md:text-center">
+          We forster a skill-focussed environment enabling students to navigate
+          their career with <br class="hidden md:block" />
+          their self-paced learning journey and businesses to gain market-ready
+          talent.
+        </p>
+        <a href=""
+          ><button type="button" class="btn-two">Ask questions</button></a
+        >
+      </div>
+    </section>
+    <!---------------------------------
+        This Is Hero Section End
+    ---------------------------------->
   </body>
 </html>
