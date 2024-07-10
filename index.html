@@ -14,6 +14,8 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
     />
+    <!-- Flowbite CDN Link -->
+    <script src="https://unpkg.com/flowbite@latest/dist/flowbite.js"></script>
   </head>
   <body class="font-jakarta bg-[#F5F5F5]">
     <!----------------------------------
@@ -99,7 +101,7 @@
           <img
             src="./assets/shapes/Wave.svg"
             alt=""
-            class="absolute -bottom-9"
+            class="absolute -bottom-5 md:-bottom-9"
           />
         </div>
       </div>
@@ -143,7 +145,7 @@
     <!----------------------------------
         This Is Facility Section Start
     ----------------------------------->
-    <section class="bg-[#F5F5F5]">
+    <section class="pb-10 md:pb-0">
       <div
         class="container mx-auto flex flex-col md:flex-row items-center justify-center gap-10 md:gap-32"
       >
@@ -228,7 +230,7 @@
     <!----------------------------------
         This Is About Us Section Start
     ----------------------------------->
-    <section class="h-full">
+    <section class="h-full pb-32 md:pb-0">
       <!-- about us top section start -->
       <section
         class="bg-cover bg-no-repeat h-screen mb-36 md:mb-0"
@@ -395,20 +397,18 @@
             <h3
               class="text-[#2D3142] text-3xl md:text-4xl font-semibold pt-5 text-center md:text-left"
             >
-            Our Vision
+              Our Vision
             </h3>
             <p
               class="text-[#000000] text-lg md:leading-8 pt-7 md:pt-14 pb-14 md:pb-28 text-justify md:text-left"
             >
-            To have a globally recognised strategic bridge
+              To have a globally recognised strategic bridge
               <br class="hidden md:block" />
               between education and the job market
             </p>
             <a href="#"
               ><button type="button" class="btn-three">
-                Contact us<i
-                  class="fa-solid fa-arrow-right pl-3"
-                ></i></button
+                Contact us<i class="fa-solid fa-arrow-right pl-3"></i></button
             ></a>
           </div>
           <!-- right side end -->
@@ -418,6 +418,74 @@
     </section>
     <!---------------------------------
         This Is About Us Section End
+    ---------------------------------->
+
+    <!----------------------------------
+        This Is Skills Section Start
+    ----------------------------------->
+    <section class="bg-[#FFFFFF]">
+      <div
+        class="container mx-auto flex flex-col md:flex-row items-center justify-center gap-48 pt-[150px] pb-32 px-10 md:px-0"
+      >
+        <div class="relative">
+          <img
+            src="./assets/shapes/skill-1.png"
+            alt=""
+            class="absolute right-4 md:right-8 top-1"
+          />
+          <img
+            src="./assets/icons/discover-skill.png"
+            alt=""
+            class="hover:animate-bounce cursor-pointer"
+          />
+          <h4 class="text-[#000000] font-bold text-2xl pt-6 pb-5">Discover</h4>
+          <p class="text-[#757095] font-medium text-sm leading-6">
+            We uncover students unique skills to stand
+            <br class="hidden md:block" />
+            out in a crowded job market
+          </p>
+        </div>
+
+        <div class="relative">
+          <img
+            src="./assets/shapes/skill-2.png"
+            alt=""
+            class="absolute -right-2 md:-right-10 top-1"
+          />
+          <img
+            src="./assets/icons/interact-skill.png"
+            alt=""
+            class="hover:animate-bounce cursor-pointer"
+          />
+          <h4 class="text-[#000000] font-bold text-2xl pt-6 pb-5">Interact</h4>
+          <p class="text-[#757095] font-medium text-sm leading-6">
+            We open doors to new opportunities by <br class="hidden md:block" />
+            expanding your transferrable skills
+          </p>
+        </div>
+
+        <div class="relative">
+          <img
+            src="./assets/shapes/skill-3.png"
+            alt=""
+            class="absolute -right-2 md:right-3 top-1"
+          />
+          <img
+            src="./assets/icons/engage-skill.png"
+            alt=""
+            class="hover:animate-bounce cursor-pointer"
+          />
+          <h4 class="text-[#000000] font-bold text-2xl pt-6 pb-5">Engage</h4>
+          <p class="text-[#757095] font-medium text-sm leading-6">
+            To forester a skill focussed environment that
+            <br class="hidden md:block" />
+            enable students to navigate their ideal career
+          </p>
+        </div>
+      </div>
+    </section>
+    <!---------------------------------
+        This Is Skills Section End
     ---------------------------------->
   </body>
 </html>
