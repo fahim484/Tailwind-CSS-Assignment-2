@@ -126,7 +126,7 @@
           >
         </h1>
         <p
-          class="text-[#FAFAFA] text-xl leading-9 pb-8 md:pb-5 text-justify md:text-center"
+          class="text-[#FAFAFA] text-sm md:text-xl md:leading-9 pb-8 md:pb-5 text-center"
         >
           We forster a skill-focussed environment enabling students to navigate
           their career with <br class="hidden md:block" />
@@ -230,7 +230,7 @@
     <!----------------------------------
         This Is About Us Section Start
     ----------------------------------->
-    <section class="h-full pb-32 md:pb-0">
+    <section id="about" class="h-full pb-32 md:pb-0">
       <!-- about us top section start -->
       <section
         class="bg-cover bg-no-repeat h-screen mb-36 md:mb-0"
@@ -423,7 +423,7 @@
     <!----------------------------------
         This Is Skills Section Start
     ----------------------------------->
-    <section class="bg-[#FFFFFF]">
+    <section id="upskill" class="bg-[#FFFFFF]">
       <div
         class="container mx-auto flex flex-col md:flex-row items-center justify-center gap-48 pt-[150px] pb-32 px-10 md:px-0"
       >
@@ -492,14 +492,15 @@
         This Is Testimonial Section Start
     ----------------------------------->
     <section
+      id="contact"
       style="background-image: url('./assets/shapes/testimonial-rectangle.png')"
-      class="bg-no-repeat bg-contain bg-top"
+      class="bg-no-repeat bg-contain bg-top bg-[#FFFFFF]"
     >
       <div class="container mx-auto py-10 md:py-[262px] relative">
         <img
           src="./assets/shapes/testimonial-arrow.png"
           alt=""
-          class="absolute left-5 md:left-[500px] top-40 md:top-80"
+          class="absolute left-5 md:left-[500px] top-40 md:top-80 z-20"
         />
         <h2
           class="text-[#000000] font-semibold text-4xl md:text-[40px] leading-[70px] text-center md:text-start md:pl-[145px] pb-6 md:pb-28"
@@ -508,11 +509,18 @@
           behind <span class="text-[#F44335]">the door</span>
         </h2>
 
-        <div class="flex flex-col md:flex-row items-center justify-center gap-12">
+        <div
+          class="flex flex-col md:flex-row items-center justify-center gap-12"
+        >
+          <img
+            src="./assets/shapes/testimonial-combined-shape.png"
+            alt=""
+            class="absolute md:left-28 bottom-60 md:bottom-48"
+          />
 
-          <img src="./assets/shapes/testimonial-combined-shape.png" alt="" class="absolute md:left-28 bottom-60 md:bottom-48 -z-10">
-
-          <div class="py-10 w-[275px] text-center bg-[#FFFFFF] rounded-[10px]">
+          <div
+            class="py-10 w-[275px] text-center bg-[#FFFFFF] rounded-[10px] drop-shadow-md shadow-[#F3F2F2] z-10"
+          >
             <img
               src="./assets/images/image-1.png"
               alt=""
@@ -529,7 +537,9 @@
             />
           </div>
 
-          <div class="py-10 w-[275px] text-center bg-[#FFFFFF] rounded-[10px]">
+          <div
+            class="py-10 w-[275px] text-center bg-[#FFFFFF] rounded-[10px] drop-shadow-md shadow-[#F3F2F2] z-10"
+          >
             <img
               src="./assets/images/image-2.png"
               alt=""
@@ -546,7 +556,9 @@
             />
           </div>
 
-          <div class="py-10 w-[275px] text-center bg-[#FFFFFF] rounded-[10px]">
+          <div
+            class="py-10 w-[275px] text-center bg-[#FFFFFF] rounded-[10px] drop-shadow-md shadow-[#F3F2F2] z-10"
+          >
             <img
               src="./assets/images/image-3.png"
               alt=""
@@ -565,7 +577,9 @@
             />
           </div>
 
-          <div class="py-10 w-[275px] text-center bg-[#FFFFFF] rounded-[10px]">
+          <div
+            class="py-10 w-[275px] text-center bg-[#FFFFFF] rounded-[10px] drop-shadow-md shadow-[#F3F2F2] z-10"
+          >
             <img
               src="./assets/images/image-4.png"
               alt=""
@@ -581,10 +595,142 @@
               class="inline-block cursor-pointer"
             />
           </div>
-          <img src="./assets/shapes/testimonial-combined-shape.png" alt="" class="absolute md:right-[85px] top-[420px] md:top-[460px] -z-10">
+          <img
+            src="./assets/shapes/testimonial-combined-shape.png"
+            alt=""
+            class="absolute md:right-[85px] top-[420px] md:top-[460px]"
+          />
         </div>
       </div>
     </section>
+    <!---------------------------------
+        This Is Testimonial Section End
+    ---------------------------------->
+
+    <!----------------------------------
+        This Is Testimonial Section Start
+    ----------------------------------->
+    <footer class="bg-[#FFFFFF]">
+      <section
+        class="container mx-auto grid grid-cols-12 md:mb-8 gap-0 pt-10 px-10 md:px-40"
+      >
+        <!-- left side -->
+        <section class="col-span-12 md:col-span-4 py-8 md:py-10">
+          <a href=""
+            ><img
+              src="./assets/logos/main-logo.png"
+              alt="main-logo"
+              class="w-28 md:w-fit pb-5"
+          /></a>
+          <address class="text-[#20484F] font-light leading-7">
+            Leve139 <br class="hidden md:block" />
+            One Canada Square, <br class="hidden md:block" />
+            Canary Wharf, <br class="hidden md:block" />
+            London, <br class="hidden md:block" />
+            EU 5AB
+          </address>
+        </section>
+        <!-- Right side -->
+        <section class="col-span-6 md:col-span-4 py-8 md:py-10 text-[#20484F]">
+          <div
+            class="flex flex-col md:flex-row md:items-center md:justify-start gap-20"
+          >
+            <div>
+              <ul class="flex flex-col gap-6">
+                <li>
+                  <a class="text-lg font-bold" href="#home">Home</a>
+                </li>
+                <li>
+                  <a class="" href="#">Collaborations</a>
+                </li>
+                <li>
+                  <a class="" href="#">Statistics</a>
+                </li>
+                <li>
+                  <a class="" href="#">How It Works</a>
+                </li>
+                <li>
+                  <a class="" href="#">Testimonials</a>
+                </li>
+              </ul>
+            </div>
+
+            <div>
+              <ul class="flex flex-col gap-6">
+                <li>
+                  <a class="text-lg font-bold" href="#home">About Us</a>
+                </li>
+                <li>
+                  <a class="" href="#">Who We Are</a>
+                </li>
+                <li>
+                  <a class="" href="#">Mission statement</a>
+                </li>
+                <li>
+                  <a class="" href="#">Our Vision</a>
+                </li>
+                <li>
+                  <a class="" href="#">The Team </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section class="col-span-6 md:col-span-4 py-8 md:py-10 text-[#20484F]">
+          <div
+            class="flex flex-col md:flex-row md:items-center md:justify-start gap-20"
+          >
+            <div>
+              <ul class="flex flex-col gap-6">
+                <li>
+                  <a class="text-lg font-bold" href="#home">Upskill</a>
+                </li>
+                <li>
+                  <a class="" href="#">It Support</a>
+                </li>
+                <li>
+                  <a class="" href="#">Project Management</a>
+                </li>
+                <li>
+                  <a class="" href="#">Data Analysts</a>
+                </li>
+                <li>
+                  <a class="" href="#">Ux Design</a>
+                </li>
+              </ul>
+            </div>
+
+            <div>
+              <ul class="flex flex-col gap-6">
+                <li>
+                  <a class="text-lg font-bold" href="#home">Contact Us</a>
+                </li>
+                <li>
+                  <a class="" href="#">Your message</a>
+                </li>
+                <li>
+                  <a class="" href="#">Email</a>
+                </li>
+                <li>
+                  <a class="" href="#">Phone number</a>
+                </li>
+                <li>
+                  <a class="" href="#">Linkedin </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </section>
+      <hr class="h-px my-8 bg-[#20484F1A] border-0" />
+
+      <!-- website authority -->
+      <div class="text-center pb-8">
+        <p class="text-[#20484F] text-sm leading-5">
+          Copyright © 2024 Creatives For You LTD
+        </p>
+      </div>
+    </footer>
     <!---------------------------------
         This Is Testimonial Section End
     ---------------------------------->
